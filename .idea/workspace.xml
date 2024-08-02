@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="675e67d7-9746-45ba-89a8-dd407946c956" name="변경" comment="2. 대소문자 변환">
-      <change afterPath="$PROJECT_DIR$/src/A02_String_Upper_Lower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A03_StringInSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A01_String_Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_String_Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A01_String_Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_StringFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A02_String_Upper_Lower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A02_StringUpperLower.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +52,28 @@
     "애플리케이션.A01_FindString.executor": "Run",
     "애플리케이션.A01_String_Find.executor": "Run",
     "애플리케이션.A02_String_Upper_Lower.executor": "Run",
+    "애플리케이션.A03_StringInSentence.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.A02_String_Upper_Lower">
-    <configuration name="A01_String_Find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A01_String_Find" />
+  <component name="RunManager" selected="애플리케이션.A03_StringInSentence">
+    <configuration name="A01_StringFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A01_StringFind" />
       <module name="java-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A02_String_Upper_Lower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A02_String_Upper_Lower" />
+    <configuration name="A02_StringUpperLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A02_StringUpperLower" />
+      <module name="java-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A03_StringInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A03_StringInSentence" />
       <module name="java-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,9 +95,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.A02_String_Upper_Lower" />
+        <item itemvalue="애플리케이션.A03_StringInSentence" />
+        <item itemvalue="애플리케이션.A01_StringFind" />
+        <item itemvalue="애플리케이션.A02_StringUpperLower" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.A01_String_Find" />
         <item itemvalue="애플리케이션.Main (1)" />
       </list>
     </recent_temporary>
@@ -119,6 +129,7 @@
       <workItem from="1722414054212" duration="2000" />
       <workItem from="1722470774409" duration="2581000" />
       <workItem from="1722473695261" duration="2455000" />
+      <workItem from="1722556910882" duration="971000" />
     </task>
     <task id="LOCAL-00002" summary="1. 문자 찾기">
       <option name="closed" value="true" />
@@ -128,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722473705069</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2. 대소문자 변환">
+      <option name="closed" value="true" />
+      <created>1722556914429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722556914429</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +164,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -160,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="1. 문자 찾기" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 문자 찾기" />
+    <MESSAGE value="2. 대소문자 변환" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. 대소문자 변환" />
   </component>
 </project>

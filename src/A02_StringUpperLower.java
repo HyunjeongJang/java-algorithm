@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 첫 줄에 대문자는 소문자로, 소문자는 대문자로 변환된 문자열을 출력합니다.
 
 */
-public class A02_String_Upper_Lower {
+public class A02_StringUpperLower {
 
     public String solution1(String str) {
         String answer = "";
@@ -46,7 +46,7 @@ public class A02_String_Upper_Lower {
     }
 
     public static void main(String[] args) {
-        A02_String_Upper_Lower T = new A02_String_Upper_Lower();
+        A02_StringUpperLower T = new A02_StringUpperLower();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.print(T.solution1(str));

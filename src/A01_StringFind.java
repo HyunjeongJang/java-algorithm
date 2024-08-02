@@ -16,7 +16,7 @@ import java.util.*;
 첫 줄에 해당 문자의 개수를 출력한다.
 
  */
-public class A01_String_Find {
+public class A01_StringFind {
 
     public int solution(String str, char t) {
         int answer = 0;
@@ -28,12 +28,21 @@ public class A01_String_Find {
         return answer;
     }
 
+    public int solution2(String str, char t) {
+        t = Character.toUpperCase(t);
+        char finalT = t;
+        return (int) str.chars()
+                .map(Character::toUpperCase)
+                .filter(c -> c == finalT)
+                .count();
+    }
+
     public static void main(String[] args) {
-        A01_String_Find T = new A01_String_Find();
+        A01_StringFind T = new A01_StringFind();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);
-        System.out.print("answer=" + T.solution(str, c));
+        System.out.print("answer=" + T.solution2(str, c));
     }
 
 }
