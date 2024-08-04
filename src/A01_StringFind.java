@@ -1,5 +1,3 @@
-import java.util.*;
-
 /*
 
 1. 문자 찾기
@@ -16,6 +14,9 @@ import java.util.*;
 첫 줄에 해당 문자의 개수를 출력한다.
 
  */
+
+import java.util.*;
+
 public class A01_StringFind {
 
     public int solution(String str, char t) {

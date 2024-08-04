@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675e67d7-9746-45ba-89a8-dd407946c956" name="변경" comment="2. 대소문자 변환">
-      <change afterPath="$PROJECT_DIR$/src/A03_StringInSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A01_String_Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_StringFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A02_String_Upper_Lower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A02_StringUpperLower.java" afterDir="false" />
+    <list default="true" id="675e67d7-9746-45ba-89a8-dd407946c956" name="변경" comment="3. 문장 속 단어">
+      <change afterPath="$PROJECT_DIR$/src/A04_StringReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A01_StringFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_StringFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A02_StringUpperLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A02_StringUpperLower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A03_StringInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A03_StringInSentence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,7 @@
       <workItem from="1722414054212" duration="2000" />
       <workItem from="1722470774409" duration="2581000" />
       <workItem from="1722473695261" duration="2455000" />
-      <workItem from="1722556910882" duration="971000" />
+      <workItem from="1722556910882" duration="2365000" />
     </task>
     <task id="LOCAL-00002" summary="1. 문자 찾기">
       <option name="closed" value="true" />
@@ -147,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722556914429</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3. 문장 속 단어">
+      <option name="closed" value="true" />
+      <created>1722558369229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722558369229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +188,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="1. 문자 찾기" />
     <MESSAGE value="2. 대소문자 변환" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 대소문자 변환" />
+    <MESSAGE value="3. 문장 속 단어" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 문장 속 단어" />
   </component>
 </project>
