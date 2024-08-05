@@ -28,7 +28,7 @@ giB
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class A04_StringReverse {
+public class A04_ReverseString {
 
     public ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
@@ -65,7 +65,7 @@ public class A04_StringReverse {
     }
 
     public static void main(String[] args) {
-        A04_StringReverse T = new A04_StringReverse();
+        A04_ReverseString T = new A04_ReverseString();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         String[] str = new String[n];

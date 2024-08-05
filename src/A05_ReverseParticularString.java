@@ -21,15 +21,20 @@ S#T!EG*b@a
 
 import java.util.*;
 
-public class A05_StringReverseParticular {
+public class A05_ReverseParticularString {
 
     public String solution(String str) {
         String answer;
         char[] s = str.toCharArray();
-        int lt = 0, rt = str.length() - 1;
+        int lt = 0;
+        int rt = str.length() - 1;
         while (lt < rt) {
-            if (!Character.isAlphabetic(s[lt])) lt++;
-            else if (!Character.isAlphabetic(s[rt])) rt--;
+            if (!Character.isAlphabetic(s[lt])) {
+                lt++;
+            }
+            else if (!Character.isAlphabetic(s[rt])) {
+                rt--;
+            }
             else {
                 char tmp = s[lt];
                 s[lt] = s[rt];
@@ -43,7 +48,7 @@ public class A05_StringReverseParticular {
     }
 
     public static void main(String[] args) {
-        A05_StringReverseParticular T = new A05_StringReverseParticular();
+        A05_ReverseParticularString T = new A05_ReverseParticularString();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));

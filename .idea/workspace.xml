@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675e67d7-9746-45ba-89a8-dd407946c956" name="변경" comment="3. 문장 속 단어">
-      <change afterPath="$PROJECT_DIR$/src/A04_StringReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A01_StringFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_StringFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A02_StringUpperLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A02_StringUpperLower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A03_StringInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A03_StringInSentence.java" afterDir="false" />
+    <list default="true" id="675e67d7-9746-45ba-89a8-dd407946c956" name="변경" comment="5. 특정 문자열 뒤집기">
+      <change afterPath="$PROJECT_DIR$/src/A06_RemoveDuplicateChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A01_StringFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A01_FindString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A04_StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A04_ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A05_StringReverseParticular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A05_ReverseParticularString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +53,14 @@
     "애플리케이션.A01_String_Find.executor": "Run",
     "애플리케이션.A02_String_Upper_Lower.executor": "Run",
     "애플리케이션.A03_StringInSentence.executor": "Run",
+    "애플리케이션.A05_ReverseParticularString.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.A03_StringInSentence">
-    <configuration name="A01_StringFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A01_StringFind" />
+  <component name="RunManager" selected="애플리케이션.A06_RemoveDuplicateChar">
+    <configuration name="A01_FindString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A01_FindString" />
       <module name="java-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="A05_ReverseParticularString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A05_ReverseParticularString" />
       <module name="java-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="A06_RemoveDuplicateChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A06_RemoveDuplicateChar" />
       <module name="java-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.A06_RemoveDuplicateChar" />
+        <item itemvalue="애플리케이션.A05_ReverseParticularString" />
         <item itemvalue="애플리케이션.A03_StringInSentence" />
-        <item itemvalue="애플리케이션.A01_StringFind" />
+        <item itemvalue="애플리케이션.A01_FindString" />
         <item itemvalue="애플리케이션.A02_StringUpperLower" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +130,7 @@
       <workItem from="1722414054212" duration="2000" />
       <workItem from="1722470774409" duration="2581000" />
       <workItem from="1722473695261" duration="2455000" />
-      <workItem from="1722556910882" duration="2365000" />
+      <workItem from="1722556910882" duration="4074000" />
     </task>
     <task id="LOCAL-00002" summary="1. 문자 찾기">
       <option name="closed" value="true" />
@@ -155,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722558369229</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4. 단어 뒤집기">
+      <option name="closed" value="true" />
+      <created>1722815734578</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722815734578</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5. 특정 문자열 뒤집기">
+      <option name="closed" value="true" />
+      <created>1722816505603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722816505603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +206,8 @@
     <MESSAGE value="1. 문자 찾기" />
     <MESSAGE value="2. 대소문자 변환" />
     <MESSAGE value="3. 문장 속 단어" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. 문장 속 단어" />
+    <MESSAGE value="4. 단어 뒤집기" />
+    <MESSAGE value="5. 특정 문자열 뒤집기" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. 특정 문자열 뒤집기" />
   </component>
 </project>

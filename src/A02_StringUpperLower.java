@@ -28,8 +28,12 @@ public class A02_StringUpperLower {
     public String solution1(String str) {
         String answer = "";
         for (char x : str.toCharArray()) {
-            if (Character.isLowerCase(x)) answer += Character.toUpperCase(x);
-            else answer += Character.toLowerCase(x);
+            if (Character.isLowerCase(x)) {
+                answer += Character.toUpperCase(x);
+            }
+            else {
+                answer += Character.toLowerCase(x);
+            }
         }
         return answer;
     }
@@ -46,8 +50,12 @@ public class A02_StringUpperLower {
     public String solution3(String str) {
         String answer = "";
         for (char x : str.toCharArray()) {
-            if (x >= 97 && x <= 122) answer += (char) (x - 32);
-            else answer += (char) (x + 32);
+            if (x >= 97 && x <= 122) {
+                answer += (char) (x - 32);
+            }
+            else {
+                answer += (char) (x + 32);
+            }
         }
         return answer;
     }

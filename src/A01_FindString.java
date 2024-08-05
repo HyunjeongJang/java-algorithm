@@ -23,7 +23,7 @@ Computercooler c
 
 import java.util.*;
 
-public class A01_StringFind {
+public class A01_FindString {
 
     public int solution(String str, char t) {
         int answer = 0;
@@ -45,7 +45,7 @@ public class A01_StringFind {
     }
 
     public static void main(String[] args) {
-        A01_StringFind T = new A01_StringFind();
+        A01_FindString T = new A01_FindString();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);
