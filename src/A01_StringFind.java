@@ -13,6 +13,12 @@
 출력
 첫 줄에 해당 문자의 개수를 출력한다.
 
+입력예제
+Computercooler c
+
+출력예제
+2
+
  */
 
 import java.util.*;
